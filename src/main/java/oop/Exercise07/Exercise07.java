@@ -1,6 +1,5 @@
 package oop.Exercise07;
 import java.util.Scanner;
-import java.math.BigDecimal;
 /*
  *  UCF COP3330 Summer 2021 Assignment 1 Solution
  *  Copyright 2021 Joshua Federman
@@ -27,7 +26,7 @@ public class Exercise07
     }
     public static void main( String[] args ) {
         int length = getLength();
-        int width = getLength();
+        int width = getWidth();
         getAreaSquare(length, width);
     }
 }
