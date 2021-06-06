@@ -22,7 +22,7 @@ public class Exercise07
         System.out.println("The area is\n" + area + " square feet");
 
         double meter = area * METER_CONVERSION;
-        System.out.print(meter + " square meters");
+        System.out.printf("%.3f square meters", meter);
     }
     public static void main( String[] args ) {
         int length = getLength();
